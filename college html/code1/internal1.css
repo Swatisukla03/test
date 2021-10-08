@@ -1,3 +1,19 @@
 label{
-    color: rgb(55, 0, 255) !important;
+     color: rgb(55, 0, 255); 
+}
+#password{
+    color: rgb(71, 54, 54)!important;
+    font: 100;
+}
+#checkbox{
+    /* color: red !important; */
+}
+.sure{
+    color: rgb(202, 29, 57) !important;
+    background-color: yellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.fonttype{
+    font-size: 20px;
 }
