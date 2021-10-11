@@ -11,9 +11,53 @@ label{
 .sure{
     color: rgb(202, 29, 57) !important;
     background-color: yellow;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     font-size: 13px;
+    font font-weight: 300;
 }
-.fonttype{
-    font-size: 20px;
+
+.surefonttype{
+ color: black;
+ font-size: 31px;
+ font-weight:  200px;
+ font-style: italic;
+ background-color:white;
+ margin-top: 4px;
+margin: 31px 30px 30px 3px;
+/* border-style: dotted; */
+border-radius: 5%;
+font-weight: bolder; 
+ 
+}
+.heading{
+    background-color: lightpink !important;
+    /* here we have to put all the styling in a class */
+    border: darkred; 
+    border-style:dashed;
+    border-width: 10px;
+    border-radius: 13px;
+    border-bottom-left-radius: 12px;
+     font-weight: 10px !important;
+     /* in padding we can  */
+      padding: 30px 20px 20px 31px
+
+    
+}
+.image{
+    border: black;
+    /* div tag we will insert an image */
+    height: 300px;
+    /* background-image: linear-gradient(  */
+/* 96deg, yellow,red); */
+height: 300px;
+/* image is not inserted yet */
+background-image:url(logo.png); 
+
+
+
+
+}
+.span1{
+     border-style:double ;
+    border: black;
 }
