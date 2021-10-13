@@ -13,14 +13,21 @@ position: absolute;
 body{
     margin: 0;
     color: white;
-    background-color: rgb(29, 28, 28);
+    background-color: #333;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     text-align: center;
     line-height: 1.5;
+    
+}
+h2{
+    margin: 0;
+    padding: 1em;
 }
 #headerid{
     text-align: center;
+    min-height: 450px;
+    color: #fff;
 }
 #headerid h1{
     padding-top: 100px;
@@ -30,13 +37,49 @@ body{
     color: wheat;
 }
 .btn{
-    border: 1px solid #666;
-    background-color: #333;
-    margin: 0 1em;
-    padding:1em;
+   background: #333;
+   border: 1px solid #666;
+   padding: 1em;
 }
 .btn:hover{
-    background: #fff;
+    background: rgb(255, 255, 255);
     color: #333;
     cursor:pointer;
 }
+#section-a{
+    background:rgb(240, 234, 234);
+    color: #333;
+    padding-bottom: 2em;
+
+    
+}
+p{
+    margin: 0;
+    padding: 1em;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#section-b{
+    display: grid;
+    padding: 2em;
+}
+#section-b ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#section-b li{
+    background: #fff;
+    color: #333;
+    width: 28%;
+    margin-bottom: 1em;
+    border: solid;
+    
+}
+
