@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+
+}
+.container{
+    position: relative;
+
+    height:100vh;
+    width:100vw;
+    background:url(" https://raw.githubusercontent.com/sefyudem/CSS-Hamburger-Menu/master/img/bg.jpg") no-repeat;
+    
+    background-size: cover;
+    background-position: 50% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    opacity:1;
+    filter: blur(5px);
+    -webkit-filter: blur(0px);
+
+    z-index: -40;
+    
+    
+}
+.container:before{
+    
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    
+    
+    height: 100%;
+    
+    
+    z-index: -10;
+    
+}
+.content{
+    margin-top: 10px;
+
+    width: 700px;
+    padding: 2em;
+    position: relative;
+    z-index: 1;
+}
+.content h1{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color:yellow;
+    font-weight: bold;
+    border: 2px solid white;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+.content p{
+    margin-bottom: 2px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.btn{
+    padding: 0.75rem 1.25rem;
+    margin-top:.8rem ;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: #fff44f;
+    background-color: #111;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition:3s ;
+
+}
