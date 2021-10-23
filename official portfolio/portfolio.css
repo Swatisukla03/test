@@ -72,6 +72,7 @@ font-family: 'Zen Old Mincho', serif;
 }
 .h-text h1{
     font-size: 3em;
+    
     color: #222;
    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
  font-family: 'crimson'
@@ -79,7 +80,8 @@ font-family: 'Zen Old Mincho', serif;
 }
 .h-text p{
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    
 }
 .h-text a{
     text-decoration: none;
@@ -165,7 +167,7 @@ font-family: 'Zen Old Mincho', serif;
 
 }
 .typing span{
-    color:white;
+    color:rgb(255, 188, 2);
 
 }
 .crow{
@@ -185,3 +187,38 @@ font-family: 'Zen Old Mincho', serif;
 
 
 }
+/* .typing1{
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    width: 0ch;
+    float: left;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    white-space: nowrap;
+    animation: typing 5s steps(9) 0s infinite ;
+
+}
+.typing1 span{
+    color:rgb(255, 188, 2);
+
+}
+.crow1{
+    float: left;
+    color: white;
+    animation: crow 0.8s linear 2s infinite;
+    font-weight: bold;
+}
+@keyframes typing1{
+    from{
+        width: 0ch;
+    }
+    to{
+        width: 11ch;
+    }
+
+
+} */
+
+
