@@ -1,0 +1,54 @@
+<!-- Animation styles -->
+<head>
+    <style>
+        @keyframes style1 {
+            from{background-color: tomato;}
+              to{background-color:violet;}
+            
+        }
+        #animation{
+            width: 400px;
+            padding: 1em;
+            text-align: center;
+            height: 400px;
+            background-color: red;
+            animation-name: style1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        #animation2{
+            width: 400px;
+            height:400px ;
+            background-color:aquamarine ;
+            position: relative;
+            animation: style;
+            animation-iteration-count: 2s;
+            
+
+        }
+        @keyframes style2{
+            from{
+                margin-left: 100%;
+            }
+            to{
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div  style="width: 600px;height: 300px;" id="animation">
+        <p>
+            Animation text
+        </p>
+
+    </div>
+    <div id="animation2">
+        <p>Random paragraph</p>
+
+    </div>
+</body>
